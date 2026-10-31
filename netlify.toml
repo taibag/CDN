@@ -1,0 +1,5 @@
+# Used only if you connect the GitHub repo directly in Netlify.
+# The GitHub Actions workflow builds dist/ itself and ignores this.
+[build]
+  command = "sh build.sh"
+  publish = "dist"
